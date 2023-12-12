@@ -1,0 +1,32 @@
+body {
+    background-color: grey;
+  }
+  
+  nav{
+    display:flex;
+    justify-content:space-between;
+    color:white;
+    font-size:18px;
+    background-color:#6e072d;
+  }
+  
+  ul{
+    display:flex;
+    margin:0;
+    padding:0;
+  }
+  
+  li{
+    padding:1em 1.5em;
+    cursor:pointer;
+    list-style-type:none;
+  }
+  
+  li:not(:last-of-type){
+    border-right:2px solid white;
+  }
+  
+  li:hover{
+    background-color:#b90e4d;
+  }
+  

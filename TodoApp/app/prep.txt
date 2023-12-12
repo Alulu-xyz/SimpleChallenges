@@ -1,0 +1,9 @@
+Todo App
+
+In order to create a do app, you will need the following:
+	1. Interface
+	2. Capturing users datas
+	3. Adding todos to an array of todo items
+	4. Functionality for rendering the todos
+	5. Functionality for deleting the todos (filtering)
+	6. Functionality for checking and unchecking i.e (toggling) the todos
