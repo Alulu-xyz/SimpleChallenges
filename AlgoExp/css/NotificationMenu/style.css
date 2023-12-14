@@ -1,0 +1,68 @@
+body {
+    font-size: 14px;
+}
+
+#wrapper {
+    background-color: lightgrey;
+    width: 280px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.notification {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "image paragraph"
+        "image time";
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+    border-radius: 50%;
+    grid-area: image;
+}
+
+p {
+    padding: 10px;
+    margin: 0;
+}
+
+.user {
+    grid-area: paragraph;
+    font-weight: bold;
+}
+
+.time {
+    grid-area: time;
+    text-align: right;
+    font-weight: normal;
+    font-size: 12px;
+    font-style: italic;
+}
+
+button {
+    padding-top: 10px;
+    margin-left: 10px;
+    width: 260px;
+    text-align: center;
+    font-size: 16px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #02203c;
+    color: white;
+}
